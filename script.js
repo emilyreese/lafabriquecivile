@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Handle line breaks in logo
                 element.innerHTML = text;
             } else {
+                // For all other elements, use textContent to preserve security
                 element.textContent = text;
             }
         });
