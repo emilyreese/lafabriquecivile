@@ -53,10 +53,42 @@ a {
     padding: 0 2rem;
 }
 
+/* Construction Banner */
+.construction-banner {
+    background: #FFC627;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1002; /* Higher than nav */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.construction-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Adjust nav to sit below banner */
+.nav {
+    top: 45px; /* Pushes nav below the banner */
+    z-index: 1001; /* Below banner but above content */
+}
+
+/* Adjust hero padding to account for both banner and nav */
+.hero {
+    padding-top: 12rem; /* Increased to account for both banner + nav */
+}
+
 /* Navigation */
 .nav {
     position: fixed;
-    top: 0;
+    top: 45px;
     left: 0;
     right: 0;
     background: #ffffff;
