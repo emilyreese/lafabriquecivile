@@ -14,6 +14,7 @@ body {
     line-height: 1.6;
     color: #1a1a1a;
     background: #ffffff;
+    margin-top: 110px; /* banner (45px) + nav (~65px) */
 }
 
 /* Typography */
@@ -72,12 +73,6 @@ a {
 .construction-content {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-/* Adjust nav to sit below banner */
-.nav {
-    top: 45px; /* Pushes nav below the banner */
-    z-index: 1001; /* Below banner but above content */
 }
 
 /* Adjust hero padding to account for both banner and nav */
