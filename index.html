@@ -1,287 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Fabrique Civile - Building public interest projects that should exist</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Fabrique Civile</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="construction-banner">
-    <div class="construction-content">
-        <span data-en="🚧 Site under construction — Coming soon" data-fr="🚧 Site en construction — Bientôt disponible">🚧 Site under construction — Coming soon</span>
-    </div>
-</div>
+  <div class="page-wrapper">
+
     <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <div class="logo">
-                <div class="logo-circle"></div>
-                <span class="logo-text" data-en="LA FABRIQUE<br>CIVILE" data-fr="LA FABRIQUE<br>CIVILE">LA FABRIQUE<br>CIVILE</span>
-            </div>
-            <div class="nav-actions">
-                <a href="#" class="btn-donate" data-en="Support our work" data-fr="Nous soutenir">Support our work</a>
-                <button class="lang-switcher" id="langSwitcher">
-                    <span class="lang-option" data-lang="en">EN</span>
-                    <span class="lang-separator">/</span>
-                    <span class="lang-option active" data-lang="fr">FR</span>
-                </button>
-            </div>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="logo.png" alt="La Fabrique Civile" width="56" height="48">
+          <span>La Fabrique Civile</span>
         </div>
+        <div class="nav-right">
+          <a href="#" class="support-btn" data-en="Support our work" data-fr="Nous soutenir">Support our work</a>
+          <div class="lang-toggle">
+            <span class="lang-option active" data-lang="en">EN</span>
+            <span class="lang-separator">/</span>
+            <span class="lang-option" data-lang="fr">FR</span>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title" data-en="Building public interest projects that should exist." data-fr="Construire des projets d'intérêt public qui devraient exister.">
-                    Building public interest projects that should exist.
-                </h1>
-                <p class="hero-subtitle" data-en="La Fabrique Civile designs and supports civic, educational, and social initiatives that serve the common good, especially the ones that are overlooked, underfunded, or never built." data-fr="La Fabrique Civile conçoit et soutient des initiatives civiques, éducatives et sociales au service du bien commun, en particulier celles qui sont négligées, sous-financées ou jamais réalisées.">
-                    La Fabrique Civile designs and supports civic, educational, and social initiatives that serve the common good, especially the ones that are overlooked, underfunded, or never built.
-                </p>
-            </div>
-            <div class="hero-decoration">
-                <div class="shape shape-blue"></div>
-                <div class="shape shape-yellow"></div>
-            </div>
-        </div>
+      <div class="hero-shape shape-1"></div>
+      <div class="hero-shape shape-2"></div>
+      <div class="hero-shape shape-3"></div>
+      
+      <div class="hero-container">
+        <h1 data-en="Building public interest projects that should exist." data-fr="Construire des projets d'intérêt public qui devraient exister.">Building public interest projects that should exist.</h1>
+        <p data-en="La Fabrique Civile designs and supports civic, educational, and social initiatives that serve the common good, especially the ones that are overlooked, underfunded, or never built." data-fr="La Fabrique Civile conçoit et soutient des initiatives civiques, éducatives et sociales au service du bien commun, en particulier celles qui sont négligées, sous-financées ou jamais réalisées.">La Fabrique Civile designs and supports civic, educational, and social initiatives that serve the common good, especially the ones that are overlooked, underfunded, or never built.</p>
+      </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-en="PROJECTS" data-fr="PROJETS">PROJECTS</span>
-                <h2 class="section-title" data-en="Our projects" data-fr="Nos projets">Our projects</h2>
-                <p class="section-description" data-en="We develop and experiment with practical tools, platforms, and ideas that make civic life more accessible, informed, and humane." data-fr="Nous développons et expérimentons des outils pratiques, des plateformes et des idées qui rendent la vie civique plus accessible, informée et humaine.">
-                    We develop and experiment with practical tools, platforms, and ideas that make civic life more accessible, informed, and humane.
-                </p>
-            </div>
-
-            <div class="project-cards">
-                <div class="card">
-                    <div class="card-header">
-                        <h3 data-en="Bon Euro Quotidien" data-fr="Bon Euro Quotidien">Bon Euro Quotidien</h3>
-                    </div>
-                    <p class="card-description" data-en="A discovery platform for nonprofits in France, by cause and criteria, helping people build a simple, sustainable donation ritual that works for them." data-fr="Une plateforme de découverte d'associations en France, par cause et critères, aidant les gens à construire un rituel de don simple et durable qui leur convient.">
-                        A discovery platform for nonprofits in France, by cause and criteria, helping people build a simple, sustainable donation ritual that works for them.
-                    </p>
-                    <a href="#" class="card-link" data-en="→ Learn more" data-fr="→ En savoir plus">→ Learn more</a>
-                </div>
-
-                <div class="card">
-                    <div class="card-header">
-                        <h3 data-en="ClariSanté" data-fr="Clarisanté">Clarisanté</h3>
-                        <span class="card-badge" data-en="working title" data-fr="titre provisoire">working title</span>
-                    </div>
-                    <p class="card-description" data-en="A platform helping healthcare providers share clear, accessible health information (not medical advice) with patients when there is a medical literacy gap." data-fr="Une plateforme qui aide les professionnels de santé à partager avec les patients des informations de santé claires et accessibles (sans constituer un avis médical), notamment lorsqu’il existe un écart de littératie en santé.">
-                        A platform helping healthcare providers share clear, accessible health information (not medical advice) with people who don't speak French.
-                    </p>
-                    <a href="#" class="card-link" data-en="→ Learn more" data-fr="→ En savoir plus">→ Learn more</a>
-                </div>
-
-                <div class="card card-accent">
-                    <div class="card-header">
-                        <h3 data-en="Future projects" data-fr="Projets futurs">Future projects</h3>
-                    </div>
-                    <p class="card-description" data-en="Exploratory, public-interest ideas across health, education, social issues, environment, and civic life." data-fr="Idées exploratoires d'intérêt public dans les domaines de la santé, l'éducation, les questions sociales, l'environnement et la vie civique.">
-                        Exploratory, public-interest ideas across health, education, social issues, environment, and civic life.
-                    </p>
-                    <a href="#" class="card-link" data-en="→ Suggest a projet" data-fr="→ Proposer un projet">→ Suggest a project</a>
-                </div>
-            </div>
+    <section class="projects">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-label" data-en="Projects" data-fr="Projets">Projects</span>
+          <h2 data-en="Our projects" data-fr="Nos projets">Our projects</h2>
+          <p data-en="We develop and experiment with practical tools, platforms, and ideas that make civic life more accessible, informed, and humane." data-fr="Nous développons et expérimentons des outils pratiques, des plateformes et des idées qui rendent la vie civique plus accessible, informée et humaine.">We develop and experiment with practical tools, platforms, and ideas that make civic life more accessible, informed, and humane.</p>
         </div>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-accent accent-sky"></div>
+            <div class="project-icon icon-sky">
+              <span>🤝</span>
+            </div>
+            <h3>Bon Euro Quotidien</h3>
+            <p data-en="A discovery platform for nonprofits in France, by cause and criteria, helping people build a simple, sustainable donation ritual that works for them." data-fr="Une plateforme de découverte d'associations en France, par cause et critères, aidant les gens à construire un rituel de don simple et durable qui leur convient.">A discovery platform for nonprofits in France, by cause and criteria, helping people build a simple, sustainable donation ritual that works for them.</p>
+            <a href="#" class="project-link" data-en="→ Learn more" data-fr="→ En savoir plus">→ Learn more</a>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-accent accent-rose"></div>
+            <div class="project-icon icon-rose">
+              <span>❤️‍🩹</span>
+            </div>
+            <div class="project-title-row">
+              <h3>ClariSanté</h3>
+              <span class="working-title" data-en="working title" data-fr="titre provisoire">working title</span>
+            </div>
+            <p data-en="A platform helping healthcare providers share clear, accessible health information (not medical advice) with patients when there is a medical literacy gap." data-fr="Une plateforme qui aide les professionnels de santé à partager avec les patients des informations de santé claires et accessibles (sans constituer un avis médical).">A platform helping healthcare providers share clear, accessible health information (not medical advice) with patients when there is a medical literacy gap.</p>
+            <a href="#" class="project-link" data-en="→ Learn more" data-fr="→ En savoir plus">→ Learn more</a>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card project-card-accent">
+            <div class="project-icon icon-amber">
+              <span>🚀</span>
+            </div>
+            <h3 data-en="Future projects" data-fr="Projets futurs">Future projects</h3>
+            <p data-en="Exploratory, public-interest ideas across health, education, social issues, environment, and civic life." data-fr="Idées exploratoires d'intérêt public dans les domaines de la santé, l'éducation, les questions sociales, l'environnement et la vie civique.">Exploratory, public-interest ideas across health, education, social issues, environment, and civic life.</p>
+            <a href="#" class="project-link" data-en="→ Suggest a project" data-fr="→ Proposer un projet">→ Suggest a project</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Team Section -->
-    <section class="team" id="team">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-en="WHO WE ARE" data-fr="QUI SOMMES-NOUS">WHO WE ARE</span>
-                <h2 class="section-title" data-en="Who we are" data-fr="Qui sommes-nous">Who we are</h2>
-                <p class="section-description" data-en="La Fabrique Civile is a nonprofit association (loi 1901) founded by a small team with backgrounds in product, research, and civic work. We operate independently, without political affiliation, and reinvest all resources into our mission." data-fr="La Fabrique Civile est une association à but non lucratif (loi 1901) fondée par une petite équipe avec des parcours en produit, recherche et travail civique. Nous opérons de manière indépendante, sans affiliation politique, et réinvestissons toutes nos ressources dans notre mission.">
-                    La Fabrique Civile is a nonprofit association (loi 1901) founded by a small team with backgrounds in product, research, and civic work. We operate independently, without political affiliation, and reinvest all resources into our mission.
-                </p>
-            </div>
-
-            <div class="team-section-wrapper">
-                <h3 class="subsection-title" data-en="Founding team" data-fr="Équipe fondatrice">Founding team</h3>
-                <div class="team-grid">
-                    <div class="team-card">
-                        <img src="https://media.licdn.com/dms/image/v2/D4E03AQESHu560mMFiw/profile-displayphoto-scale_400_400/B4EZu1v1s4KoAk-/0/1768280781461?e=1770249600&v=beta&t=0k1JjJE0mG7r9zfBXpYJVTd_9I7nmHqxSoR9B-jC20s" alt="Emily Reese" class="team-avatar">
-                        <h4>Emily Reese</h4>
-                        <p class="team-role" data-en="President" data-fr="Présidente">President</p>
-                        <p class="team-bio" data-en="Emily is a leader in mission-driven companies and the public sector, with experience spanning education, culture, healthcare, and more. She's a product and design director, as well as founder and president of La Fabrique Civile." data-fr="Emily est une leader des organisations à impact et du secteur public, avec de l'expérience dans l’éducation, la culture, la santé, et au-delà. Directrice produit et design, elle est aussi est la fondatrice et présidente de La Fabrique Civile.">Emily is a leader in mission-driven companies and the public sector, with experience spanning education, culture, healthcare, and more. She's a product and design director, as well as founder and president of La Fabrique Civile.</p>
-                    </div>
-                    <div class="team-card">
-                        <img src="https://media.licdn.com/dms/image/v2/D4E03AQHNS1emypYzww/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696598420514?e=1770249600&v=beta&t=kFZNMwOPf0qhcYE42tgikSBoSco44-O2MFdDwTJhllg" alt="Alexandre Pisani" class="team-avatar">
-                        <h4>Alexandre Pisani</h4>
-                        <p class="team-role" data-en="Treasurer" data-fr="Trésorier">Treasurer</p>
-                        <p class="team-bio" data-en="Alexandre works as a leader in education technology, serving as Director of Learning Design. He is deeply committed to the nonprofit sector as a passionate donor. He's also an accomplished graphic and motion designer." data-fr="Alexandre est leader dans l’edtech, où il occupe le poste de directeur du learning design. Profondément engagé dans le secteur associatif, il est donateur passionné. Il est également designer graphique et motion accompli.">Alexandre works as a leader in education technology, serving as Director of Learning Design. He is deeply committed to the nonprofit sector as a passionate donor. He's also an accomplished graphic and motion designer.</p>
-                    </div>
-                    <div class="team-card">
-                        <img src="https://media.licdn.com/dms/image/v2/C4E03AQGAAjZ1L9iWNg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1591098055028?e=1770249600&v=beta&t=YXvkxlP0A-_WPTWents_26K61A2EzC0OJ-3KxyBPl8I" alt="Ludovic Suner" class="team-avatar">
-                        <h4>Ludovic Suner</h4>
-                        <p class="team-role" data-en="Secretary" data-fr="Secrétaire">Secretary</p>
-                        <p class="team-bio" data-en="Ludovic is a hospital practitioner at Assistance Publique - Hôpitaux de Paris (AP-HP), having dedicated his career to public healthcare, patient impact, and scientific research in biology and hematology." data-fr="Ludovic est praticien hospitalier à l’AP-HP, où il a consacré sa carrière au service public hospitalier, à l'impact patient, et à la recherche scientifique en biologie et hématologie.">Ludovic is a hospital practitioner at Assistance Publique - Hôpitaux de Paris (AP-HP). He has dedicated his career to public healthcare, patient impact, and scientific research in biology and hematology.</p>
-                    </div>
-                </div>
-            </div>
+    <section class="team">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-label" data-en="Who we are" data-fr="Qui sommes-nous">Who we are</span>
+          <h2 data-en="Who we are" data-fr="Qui sommes-nous">Who we are</h2>
+          <p data-en="La Fabrique Civile is a nonprofit association (loi 1901) founded by a small team with backgrounds in product, research, and civic work. We operate independently, without political affiliation, and reinvest all resources into our mission." data-fr="La Fabrique Civile est une association à but non lucratif (loi 1901) fondée par une petite équipe avec des parcours en produit, recherche et travail civique. Nous opérons de manière indépendante, sans affiliation politique.">La Fabrique Civile is a nonprofit association (loi 1901) founded by a small team with backgrounds in product, research, and civic work. We operate independently, without political affiliation, and reinvest all resources into our mission.</p>
         </div>
+
+        <h3 class="subsection-title" data-en="Founding team" data-fr="Équipe fondatrice">Founding team</h3>
+        
+        <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQESHu560mMFiw/profile-displayphoto-scale_400_400/B4EZu1v1s4KoAk-/0/1768280781461?e=1770249600&v=beta&t=0k1JjJE0mG7r9zfBXpYJVTd_9I7nmHqxSoR9B-jC20s" alt="Emily Reese">
+              <div class="avatar-dot dot-sky"></div>
+            </div>
+            <h4>Emily Reese</h4>
+            <p class="team-role" data-en="President" data-fr="Présidente">President</p>
+            <p class="team-bio" data-en="Emily is a leader in mission-driven companies and the public sector, with experience spanning education, culture, healthcare, and more. She's a product and design director, as well as founder and president of La Fabrique Civile." data-fr="Emily est une leader des organisations à impact et du secteur public, avec de l'expérience dans l'éducation, la culture, la santé, et au-delà. Directrice produit et design, elle est aussi est la fondatrice et présidente de La Fabrique Civile.">Emily is a leader in mission-driven companies and the public sector, with experience spanning education, culture, healthcare, and more. She's a product and design director, as well as founder and president of La Fabrique Civile.</p>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQHNS1emypYzww/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696598420514?e=1770249600&v=beta&t=kFZNMwOPf0qhcYE42tgikSBoSco44-O2MFdDwTJhllg" alt="Alexandre Pisani">
+              <div class="avatar-dot dot-amber"></div>
+            </div>
+            <h4>Alexandre Pisani</h4>
+            <p class="team-role" data-en="Treasurer" data-fr="Trésorier">Treasurer</p>
+            <p class="team-bio" data-en="Alexandre works as a leader in education technology, serving as Director of Learning Design. He is deeply committed to the nonprofit sector as a passionate donor. He's also an accomplished graphic and motion designer." data-fr="Alexandre est leader dans l'edtech, où il occupe le poste de directeur du learning design. Profondément engagé dans le secteur associatif, il est donateur passionné.">Alexandre works as a leader in education technology, serving as Director of Learning Design. He is deeply committed to the nonprofit sector as a passionate donor. He's also an accomplished graphic and motion designer.</p>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="https://media.licdn.com/dms/image/v2/C4E03AQGAAjZ1L9iWNg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1591098055028?e=1770249600&v=beta&t=YXvkxlP0A-_WPTWents_26K61A2EzC0OJ-3KxyBPl8I" alt="Ludovic Suner">
+              <div class="avatar-dot dot-rose"></div>
+            </div>
+            <h4>Ludovic Suner</h4>
+            <p class="team-role" data-en="Secretary" data-fr="Secrétaire">Secretary</p>
+            <p class="team-bio" data-en="Ludovic is a hospital practitioner at Assistance Publique - Hôpitaux de Paris (AP-HP). He has dedicated his career to public healthcare, patient impact, and scientific research in biology and hematology." data-fr="Ludovic est praticien hospitalier à l'AP-HP, où il a consacré sa carrière au service public hospitalier, à l'impact patient, et à la recherche scientifique en biologie et hématologie.">Ludovic is a hospital practitioner at Assistance Publique - Hôpitaux de Paris (AP-HP). He has dedicated his career to public healthcare, patient impact, and scientific research in biology and hematology.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Advisory Board Section -->
-    <section class="advisory" id="advisory">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label" data-en="ADVISORY BOARD" data-fr="CONSEIL CONSULTATIF">ADVISORY BOARD</span>
-                <h2 class="section-title" data-en="Advisory board" data-fr="Conseil consultatif">Advisory board</h2>
-                <p class="section-description" data-en="We are supported by a small, informal advisory board: one person per domain (health, education, social issues, etc.) who help us think better and see further." data-fr="Nous sommes soutenus par un petit conseil consultatif informel: une personne par domaine (santé, éducation, questions sociales, etc.) qui nous aide à mieux réfléchir et à voir plus loin.">
-                    We are supported by a small, informal advisory board: one person per domain (health, education, social issues, etc.) who help us think better and see further.
-                </p>
-            </div>
-
-            <div class="advisory-details">
-                <p data-en="Advisors may:" data-fr="Les conseillers peuvent :">Advisors may:</p>
-                <ul>
-                    <li data-en="surface relevant associations or initiatives," data-fr="mettre en lumière des associations ou initiatives pertinentes,">surface relevant associations or initiatives,</li>
-                    <li data-en="contribute ideas or short pieces of content," data-fr="contribuer des idées ou de courts contenus,">contribute ideas or short pieces of content,</li>
-                    <li data-en="connect us with other practitioners or thinkers," data-fr="nous mettre en relation avec d'autres praticiens ou penseurs,">connect us with other practitioners or thinkers,</li>
-                    <li data-en="help identify meaningful public-interest projects." data-fr="aider à identifier des projets d'intérêt public significatifs.">help identify meaningful public-interest projects.</li>
-                </ul>
-                <p class="advisory-note" data-en="The advisory board has no governance role and no administrative responsibilities." data-fr="Le conseil consultatif n'a aucun rôle de gouvernance ni responsabilité administrative.">
-                    The advisory board has no governance role and no administrative responsibilities.
-                </p>
-            </div>
-
-            <div class="advisory-grid">
-                <div class="advisory-card">
-                    <img src="https://pbs.twimg.com/profile_images/1680458961043046401/M9DBGhTG_400x400.jpg" alt="Pr Arsène Mekinian" class="advisory-avatar">
-                    <h4>Arsène Mekinian</h4>
-                    <p class="advisory-domain" data-en="Health" data-fr="Santé">Health</p>
-                    <p class="advisory-bio" data-en="Arsène is a professor and doctor of internal medicine at Assistance Publique - Hôpitaux de Paris (AP-HP). He brings deep expertise in healthcare and patient communication for any healthcare initiatives we work on." data-fr="Arsène est professeur et docteur en médecine interne à l’Assistance Publique – Hôpitaux de Paris (AP-HP). Il apporte une expertise approfondie en matière de soins de santé et de communication avec les patients pour nos initiatives dans la santé.">Arsène is a professor and doctor of internal medicine at Assistance Publique - Hôpitaux de Paris (AP-HP). He brings deep expertise in healthcare and patient communication for any healthcare initiatives we work on.</p>
-                </div>
-                <div class="advisory-card">
-                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQEbxliVmIDXSA/profile-displayphoto-scale_400_400/B4DZexy6AWHMAk-/0/1751034604395?e=1770249600&v=beta&t=NOXP-3Ykdhmni5QBK2aV558pJF3N5xc9fmkssREtI7M" alt="Mathieu Nebra" class="advisory-avatar">
-                    <h4>Mathieu Nebra</h4>
-                    <p class="advisory-domain" data-en="Education" data-fr="Éducation">Education</p>
-                    <p class="advisory-bio" data-en="Mathieu is a renowned entrepreneur and cofounder of the education platform OpenClassrooms. He helps us design accessible learning experiences and to find opportunites to act in the education space." data-fr="Mathieu est un entrepreneur renommé et cofondateur de la plateforme éducative OpenClassrooms. Il nous aide à concevoir des expériences d’apprentissage accessibles et à identifier des opportunités d’action dans le domaine de l’éducation.">Mathieu is a renowned entrepreneur and cofounder of the education platform OpenClassrooms. He helps us design accessible learning experiences and to find opportunites to act in the education space.</p>
-                </div>
-                <div class="advisory-card">
-                    <div class="advisory-avatar" style="background-color: #80ce9a;"></div>
-                    <h4>Coming soon</h4>
-                    <p class="advisory-domain" data-en="Environment et climat" data-fr="Environment et climat">Environment and climate</p>
-                    <p class="advisory-bio" data-en="Coming soon" data-fr="En cours">Coming soon</p>
-                </div>
-                </div>
-            </div>
+    <section class="advisory">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-label" data-en="Advisory Board" data-fr="Conseil consultatif">Advisory Board</span>
+          <h2 data-en="Advisory board" data-fr="Conseil consultatif">Advisory board</h2>
+          <p data-en="We are supported by a small, informal advisory board: one person per domain (health, education, social issues, etc.) who help us think better and see further." data-fr="Nous sommes soutenus par un petit conseil consultatif informel: une personne par domaine (santé, éducation, questions sociales, etc.) qui nous aide à mieux réfléchir et à voir plus loin.">We are supported by a small, informal advisory board: one person per domain (health, education, social issues, etc.) who help us think better and see further.</p>
         </div>
+
+        <div class="advisory-info-box">
+          <p class="info-title" data-en="Advisors may:" data-fr="Les conseillers peuvent :">Advisors may:</p>
+          <ul class="info-list">
+            <li><span class="list-dash">—</span> <span data-en="surface relevant associations or initiatives," data-fr="mettre en lumière des associations ou initiatives pertinentes,">surface relevant associations or initiatives,</span></li>
+            <li><span class="list-dash">—</span> <span data-en="contribute ideas or short pieces of content," data-fr="contribuer des idées ou de courts contenus,">contribute ideas or short pieces of content,</span></li>
+            <li><span class="list-dash">—</span> <span data-en="connect us with other practitioners or thinkers," data-fr="nous mettre en relation avec d'autres praticiens ou penseurs,">connect us with other practitioners or thinkers,</span></li>
+            <li><span class="list-dash">—</span> <span data-en="help identify meaningful public-interest projects." data-fr="aider à identifier des projets d'intérêt public significatifs.">help identify meaningful public-interest projects.</span></li>
+          </ul>
+          <p class="info-note" data-en="The advisory board has no governance role and no administrative responsibilities." data-fr="Le conseil consultatif n'a aucun rôle de gouvernance ni responsabilité administrative.">The advisory board has no governance role and no administrative responsibilities.</p>
+        </div>
+        
+        <div class="advisory-grid">
+          <!-- Advisor 1 -->
+          <div class="advisor-card">
+            <div class="advisor-avatar">
+              <img src="https://pbs.twimg.com/profile_images/1680458961043046401/M9DBGhTG_400x400.jpg" alt="Arsène Mekinian">
+            </div>
+            <h4>Arsène Mekinian</h4>
+            <p class="advisor-domain" data-en="Health" data-fr="Santé">Health</p>
+            <p class="advisor-bio" data-en="Arsène is a professor and doctor of internal medicine at AP-HP. He brings deep expertise in healthcare and patient communication for any healthcare initiatives we work on." data-fr="Arsène est professeur et docteur en médecine interne à l'AP-HP. Il apporte une expertise approfondie en matière de soins de santé et de communication avec les patients.">Arsène is a professor and doctor of internal medicine at AP-HP. He brings deep expertise in healthcare and patient communication for any healthcare initiatives we work on.</p>
+          </div>
+
+          <!-- Advisor 2 -->
+          <div class="advisor-card">
+            <div class="advisor-avatar">
+              <img src="https://media.licdn.com/dms/image/v2/D4D03AQEbxliVmIDXSA/profile-displayphoto-scale_400_400/B4DZexy6AWHMAk-/0/1751034604395?e=1770249600&v=beta&t=NOXP-3Ykdhmni5QBK2aV558pJF3N5xc9fmkssREtI7M" alt="Mathieu Nebra">
+            </div>
+            <h4>Mathieu Nebra</h4>
+            <p class="advisor-domain" data-en="Education" data-fr="Éducation">Education</p>
+            <p class="advisor-bio" data-en="Mathieu is a renowned entrepreneur and cofounder of the education platform OpenClassrooms. He helps us design accessible learning experiences." data-fr="Mathieu est un entrepreneur renommé et cofondateur de la plateforme éducative OpenClassrooms. Il nous aide à concevoir des expériences d'apprentissage accessibles.">Mathieu is a renowned entrepreneur and cofounder of the education platform OpenClassrooms. He helps us design accessible learning experiences.</p>
+          </div>
+
+          <!-- Advisor 3 - Coming Soon -->
+          <div class="advisor-card">
+            <div class="advisor-avatar placeholder">
+              <div class="placeholder-avatar bg-emerald">?</div>
+            </div>
+            <h4 data-en="Coming soon" data-fr="À venir">Coming soon</h4>
+            <p class="advisor-domain" data-en="Environment & Climate" data-fr="Environnement et climat">Environment & Climate</p>
+            <p class="advisor-bio" data-en="Coming soon" data-fr="En cours">Coming soon</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">FAQ</span>
-                <h2 class="section-title">FAQ</h2>
-            </div>
+    <section class="faq">
+      <div class="faq-container">
+        <span class="section-label">FAQ</span>
+        <h2>FAQ</h2>
 
-            <div class="faq-list">
-                <div class="faq-item">
-                    <h3 class="faq-question" data-en="What kind of organization is La Fabrique Civile?" data-fr="Quel type d'organisation est La Fabrique Civile ?">
-                        What kind of organization is La Fabrique Civile?
-                    </h3>
-                    <p class="faq-answer" data-en="A nonprofit, public-interest organization focused on research, experimentation, and practical civic tools." data-fr="Une organisation à but non lucratif d'intérêt public axée sur la recherche, l'expérimentation et les outils civiques pratiques.">
-                        A nonprofit, public-interest organization focused on research, experimentation, and practical civic tools.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3 class="faq-question" data-en="Do you give grants or funding?" data-fr="Donnez-vous des subventions ou des financements ?">
-                        Do you give grants or funding?
-                    </h3>
-                    <p class="faq-answer" data-en="No. We build projects, platforms, and content, and we help surface and support existing initiatives." data-fr="Non. Nous construisons des projets, des plateformes et du contenu, et nous aidons à faire émerger et à soutenir les initiatives existantes.">
-                        No. We build projects, platforms, and content, and we help surface and support existing initiatives.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3 class="faq-question" data-en="Are your projects political?" data-fr="Vos projets sont-ils politiques ?">
-                        Are your projects political?
-                    </h3>
-                    <p class="faq-answer" data-en="No. La Fabrique Civile is non-partisan and independent." data-fr="Non. La Fabrique Civile est non partisane et indépendante.">
-                        No. La Fabrique Civile is non-partisan and independent.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3 class="faq-question" data-en="Can anyone use your tools?" data-fr="Tout le monde peut-il utiliser vos outils ?">
-                        Can anyone use your tools?
-                    </h3>
-                    <p class="faq-answer" data-en="Yes. Our projects are designed to be free and accessible to the widest possible audience." data-fr="Oui. Nos projets sont conçus pour être gratuits et accessibles au plus grand nombre.">
-                        Yes. Our projects are designed to be free and accessible to the widest possible audience.
-                    </p>
-                </div>
-
-                <div class="faq-item">
-                    <h3 class="faq-question" data-en="How are you funded?" data-fr="Comment êtes-vous financés ?">
-                        How are you funded?
-                    </h3>
-                    <p class="faq-answer" data-en="Through donations, grants, and partnerships aligned with our mission." data-fr="Par des dons, des subventions et des partenariats alignés sur notre mission.">
-                        Through donations, grants, and partnerships aligned with our mission.
-                    </p>
-                </div>
-            </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 data-en="What kind of organization is La Fabrique Civile?" data-fr="Quel type d'organisation est La Fabrique Civile ?">What kind of organization is La Fabrique Civile?</h3>
+            <p data-en="A nonprofit, public-interest organization focused on research, experimentation, and practical civic tools." data-fr="Une organisation à but non lucratif d'intérêt public axée sur la recherche, l'expérimentation et les outils civiques pratiques.">A nonprofit, public-interest organization focused on research, experimentation, and practical civic tools.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-en="Do you give grants or funding?" data-fr="Donnez-vous des subventions ou des financements ?">Do you give grants or funding?</h3>
+            <p data-en="No. We build projects, platforms, and content, and we help surface and support existing initiatives." data-fr="Non. Nous construisons des projets, des plateformes et du contenu, et nous aidons à faire émerger et à soutenir les initiatives existantes.">No. We build projects, platforms, and content, and we help surface and support existing initiatives.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-en="Are your projects political?" data-fr="Vos projets sont-ils politiques ?">Are your projects political?</h3>
+            <p data-en="No. La Fabrique Civile is non-partisan and independent." data-fr="Non. La Fabrique Civile est non partisane et indépendante.">No. La Fabrique Civile is non-partisan and independent.</p>
+          </div>
+          <div class="faq-item">
+            <h3 data-en="Can anyone use your tools?" data-fr="Tout le monde peut-il utiliser vos outils ?">Can anyone use your tools?</h3>
+            <p data-en="Yes. Our projects are designed to be free and accessible to the widest possible audience." data-fr="Oui. Nos projets sont conçus pour être gratuits et accessibles au plus grand nombre.">Yes. Our projects are designed to be free and accessible to the widest possible audience.</p>
+          </div>
+          <div class="faq-item last">
+            <h3 data-en="How are you funded?" data-fr="Comment êtes-vous financés ?">How are you funded?</h3>
+            <p data-en="Through donations, grants, and partnerships aligned with our mission." data-fr="Par des dons, des subventions et des partenariats alignés sur notre mission.">Through donations, grants, and partnerships aligned with our mission.</p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Submit Project Section -->
-    <section class="submit" id="submit">
-        <div class="container">
-            <div class="submit-content">
-                <div class="section-header">
-                    <span class="section-label" data-en="SHARE A PROJECT" data-fr="PARTAGER UN PROJET">SHARE A PROJECT</span>
-                    <h2 class="section-title" data-en="Have an idea we should work on?" data-fr="Vous avez une idée sur laquelle nous devrions travailler ?">
-                        Have an idea we should work on?
-                    </h2>
-                    <p class="section-description" data-en="If you know of a problem that deserves a public-interest solution, or an impact project that should exist but doesn't, tell us." data-fr="Si vous connaissez un problème qui mérite une solution d'intérêt public, ou un projet à impact qui devrait exister mais n'existe pas, dites-le nous.">
-                        If you know of a problem that deserves a public-interest solution, or an impact project that should exist but doesn't, tell us.
-                    </p>
-                </div>
-
-                <div class="submit-criteria">
-                    <p data-en="We're especially interested in ideas that:" data-fr="Nous sommes particulièrement intéressés par des idées qui :">
-                        We're especially interested in ideas that:
-                    </p>
-                    <ul>
-                        <li data-en="serve the public good," data-fr="servent le bien public,">serve the public good,</li>
-                        <li data-en="fall between institutional and market solutions," data-fr="se situent entre les solutions institutionnelles et marchandes,">fall between institutional and market solutions,</li>
-                        <li data-en="could benefit from research, design, or civic tooling." data-fr="pourraient bénéficier de la recherche, du design ou d'outils civiques.">could benefit from research, design, or civic tooling.</li>
-                    </ul>
-                </div>
-
-                <a href="#" class="btn-primary" data-en="→ Submit a project idea" data-fr="→ Soumettre une idée de projet">→ Submit a project idea</a>
-            </div>
-            <div class="submit-decoration">
-                <div class="shape shape-red"></div>
-            </div>
+    <!-- Submit Section -->
+    <section class="submit">
+      <div class="submit-shape shape-rose"></div>
+      <div class="submit-shape shape-amber-circle"></div>
+      <div class="submit-shape shape-white-square"></div>
+      
+      <div class="submit-container">
+        <span class="submit-label" data-en="Share a project" data-fr="Partager un projet">Share a project</span>
+        <h2 data-en="Have an idea we should work on?" data-fr="Vous avez une idée sur laquelle nous devrions travailler ?">Have an idea we should work on?</h2>
+        <p class="submit-desc" data-en="If you know of a problem that deserves a public-interest solution, or an impact project that should exist but doesn't, tell us." data-fr="Si vous connaissez un problème qui mérite une solution d'intérêt public, ou un projet à impact qui devrait exister mais n'existe pas, dites-le nous.">If you know of a problem that deserves a public-interest solution, or an impact project that should exist but doesn't, tell us.</p>
+        
+        <div class="submit-info-box">
+          <p class="info-title" data-en="We're especially interested in ideas that:" data-fr="Nous sommes particulièrement intéressés par des idées qui :">We're especially interested in ideas that:</p>
+          <ul class="submit-list">
+            <li><span class="list-dash amber">—</span> <span data-en="serve the public good," data-fr="servent le bien public,">serve the public good,</span></li>
+            <li><span class="list-dash amber">—</span> <span data-en="fall between institutional and market solutions," data-fr="se situent entre les solutions institutionnelles et marchandes,">fall between institutional and market solutions,</span></li>
+            <li><span class="list-dash amber">—</span> <span data-en="could benefit from research, design, or civic tooling." data-fr="pourraient bénéficier de la recherche, du design ou d'outils civiques.">could benefit from research, design, or civic tooling.</span></li>
+          </ul>
         </div>
+        
+        <a href="#" class="submit-btn" data-en="→ Submit a project idea" data-fr="→ Soumettre une idée de projet">→ Submit a project idea</a>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-text">
-                    <span data-en="© La Fabrique Civile" data-fr="© La Fabrique Civile">© La Fabrique Civile</span><br>
-                    <span data-en="Nonprofit association — Paris" data-fr="Association à but non lucratif — Paris">Nonprofit association — Paris</span>
-                </p>
-                <a href="#" class="footer-link" data-en="Support our work" data-fr="Soutenir notre mission">Support our work</a>
-            </div>
+      <div class="footer-container">
+        <div class="footer-left">
+          <p class="footer-title">© La Fabrique Civile</p>
+          <p data-en="Nonprofit association — Paris" data-fr="Association à but non lucratif — Paris">Nonprofit association — Paris</p>
         </div>
+        <a href="#" class="footer-link" data-en="Support our work" data-fr="Soutenir notre mission">Support our work</a>
+      </div>
     </footer>
+  </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
