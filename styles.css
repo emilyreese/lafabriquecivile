@@ -634,11 +634,6 @@ a.team-card {
   transition: transform 0.3s ease;
 }
 
-.advisor-card:hover .advisor-avatar img,
-.advisor-card:hover .placeholder-avatar {
-  transform: scale(1.05);
-}
-
 .placeholder-avatar {
   width: 6rem;
   height: 6rem;
